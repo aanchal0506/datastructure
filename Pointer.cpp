@@ -46,21 +46,15 @@ int main(){
     delete [] p4;
     //you should delete memory after use 
     //free(p4);
-}
-//size of pointer 
-#include<iostream>
-#include<stdlib.h>
-using namespace std;
-int main(){
-    int *p1;
-    float *p2;
-    char *p3;
-    double *p4;
-    struct rectangle *p5;
-    cout<<"size of int pointer:"<<sizeof(p1)<<endl;
-    cout<<"size of float pointer:"<<sizeof(p2)<<endl;
-    cout<<"size of char pointer:"<<sizeof(p3)<<endl;
-    cout<<"size of double pointer:"<<sizeof(p4)<<endl;
-    cout<<"size of struct pointer:"<<sizeof(p5)<<endl;
+        int *p5;
+    float *p6;
+    char *p7;
+    double *p8;
+    struct rectangle *p9;
+    cout<<"size of int pointer:"<<sizeof(p5)<<endl;
+    cout<<"size of float pointer:"<<sizeof(p6)<<endl;
+    cout<<"size of char pointer:"<<sizeof(p7)<<endl;
+    cout<<"size of double pointer:"<<sizeof(p8)<<endl;
+    cout<<"size of struct pointer:"<<sizeof(p9)<<endl;
    //whatever the datatype of pointer is ,it will take 8 bytes
 }
