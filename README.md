@@ -1,5 +1,3 @@
-hii
-To,
-whomsoever it may concern 
+Hii 
 I am learning datastructure from scratch. 
-You can join me too .
+
