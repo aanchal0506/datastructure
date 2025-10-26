@@ -4,6 +4,7 @@ using namespace std;
 int * fun(int n){
     int *p;
     p=(int *)malloc(n*sizeof(int));
+    //p=new int[n];
     for(int i=0;i<n;i++){
        p[i]=i+1;
     }
